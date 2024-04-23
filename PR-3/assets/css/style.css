@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --c-brand: rgb(48, 232, 48);
+  --c-brand-rgb: 248, 54, 145;
+  --c-dark: #303050;
+  --c-body: #000017;
+  --white: #fbf9f9;
+  --body-bg:lightgray;
+  --font-family: sans-serif;
+  --transition: all 600ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+  font-family: var(--font-family);
+  color: var(--c-body);
+  line-height: 1.7;
+  font-family: 'Prompt', sans-serif;
+  background-color:var(--body-bg);
+}
+button {
+	width:100%;
+}
+.section-padiing {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.nav-1 {
+  font-size: 12px;
+}
+
+.logo {
+  width: 85px;
+}
+
+
+.off {
+  color: #12B985;
+  font-size: 12px;
+}
+
+.off-p {
+  color: rgb(196, 188, 188);
+}
+
+.verifid {
+  width: 15px;
+}
+
+.h-1 {
+  font-size: 15px;
+}
+
+.h-2 {
+  font-size: 18px;
+}
+
+.rate {
+  font-size: 12px;
+}
+
+.cat-img {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.cate-img-1 span {
+  font-size: 13px;
+}
+
+.bw {
+  width: 40%;
+  height: 280px;
+  background: #d0d9de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bw-p{
+    max-width: 450px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+.card-logo{
+  top:72%;
+  width: 22%;
+}
+.footer-c{
+ background-color: #e7f0f5;
+}
